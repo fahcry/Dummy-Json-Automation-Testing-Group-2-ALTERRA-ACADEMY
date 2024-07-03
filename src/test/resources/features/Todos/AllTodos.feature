@@ -3,6 +3,7 @@ Feature: Get All Todos From DummyJSON
     Given Get all todos with valid json
     When send request get all todos
     Then  Status code should be 200
+    And validate json schema "All_todos_json_schema.json"
 
     Scenario Outline: Get All todos by user ID
       Given get all todos with user id <userId>
