@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = "classpath:features"
+        features = "classpath:features",
 //        ,
-//        tags = "@tugas"
+        tags = "@Tugas"
 )
 public class CucumberTestSuite {}
