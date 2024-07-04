@@ -28,8 +28,9 @@ public class GetASingleCarts {
         cartResponses.getAsinglecartstring(carts1);
 
     }
-    @And("id soulbe be match {int}")
-    public void idSoulbeBeMatch(int id) {
-    SerenityRest.and().body(CartCekResponses.ID, Matchers.equalTo(id));
+
+    @And("Validate id soulbe be match {int}")
+    public void validateIdSoulbeBeMatch(int id) {
+        SerenityRest.and().body(CartCekResponses.ID,Matchers.equalTo(id));
     }
 }

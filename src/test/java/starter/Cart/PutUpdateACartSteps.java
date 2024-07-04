@@ -26,8 +26,5 @@ public class PutUpdateACartSteps {
         cartResponses.putUpdateACart(carts,filejson);
     }
 
-    @And("validate json schema {string}")
-    public void validateJsonSchema(String jsonschema) {
-        SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(jsonschema));
-    }
+
 }

@@ -22,9 +22,9 @@ public class GetAllCartsSteps {
         SerenityRest.when().get(CartResponses.GET_ALL_CART);
     }
 
-
-    @And("id soulbe be match")
+    @And("id soulbe be match {int}")
     public void idSoulbeBeMatch(int id) {
-        SerenityRest.and().body(CartCekResponses.PRODUCT_ID, Matchers.equalTo(id));
+        SerenityRest.and().body(CartCekResponses.PRODUCT_ID,Matchers.equalTo(id));
     }
+
 }

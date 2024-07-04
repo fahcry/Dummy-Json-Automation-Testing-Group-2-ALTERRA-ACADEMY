@@ -3,8 +3,8 @@ Feature: Put Update a cart
   Given update a cart with valid parameter id 1 json "<filename>"
   When send request put update a cart
   Then status code should be response 200
-  And id soulbe be match <id>
-
-    Examples:
-      |filename           |id|
-      |update_a_cart.json |1 |
+  And Validate id soulbe be match 1
+  And validate json schema "put_update_a_cart.json"
+  Examples:
+  |filename           |
+  |update_a_cart.json |
