@@ -9,21 +9,25 @@ import java.io.File;
 
 public class CartResponses {
     public static String GET_ALL_CART = Constants.BASE_URL + "/carts";
-    public static String GET_A_SINGLE_CART = Constants.BASE_URL + "/carts/{carts}";
+    public static String GET_A_SINGLE_CART = Constants.BASE_URL + "/carts/{carts1}";
     public static String GET_CARTS_BY_A_USER = Constants.BASE_URL + "/carts/user/{carts2}";
     public static String POST_ADD_A_NEW_CART = Constants.BASE_URL + "/carts/add";
     public static String PUT_UPDATE_A_CART = Constants.BASE_URL + "/carts/{carts3}";
 
 
+    @Step("Get all cart")
+    public void getAllCart(){
+        SerenityRest.get(GET_ALL_CART);
+    }
     @Step("Get a single cart")
-    public void getAsinglecart(int carts) {
+    public void getAsinglecart(int carts1) {
         SerenityRest.given()
-                .pathParam("carts", carts);
+                .pathParam("carts1", carts1);
     }
     @Step("Get a single cart string")
     public void getAsinglecartstring(String carts1) {
         SerenityRest.given()
-                .pathParam("carts", carts1);
+                .pathParam("carts1", carts1);
     }
     @Step("Get carts by a users")
     public void getCartsByAUser(int carts2){

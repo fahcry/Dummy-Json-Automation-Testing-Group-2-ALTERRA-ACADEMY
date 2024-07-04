@@ -16,6 +16,7 @@ public class GetAllCartsSteps {
     CartResponses cartResponses;
     @Given("Get all carts with parameter carts")
     public void getAllCartsWithParameterCarts() {
+        cartResponses.getAllCart();
     }
     @When("send request get all carts")
     public void sendRequestGetAllCarts() {
