@@ -8,4 +8,4 @@ Feature: Get Limit & skip todos from DummyJson
     Examples:
     | limit | skip |
     | 3     | 10   |
-    | 5     | 2    |
+    | 1     | 2    |

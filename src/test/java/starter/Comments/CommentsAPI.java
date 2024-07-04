@@ -8,13 +8,13 @@ import starter.utils.Constants;
 import java.io.File;
 
 public class CommentsAPI {
-    public static String GET_ALL_COMMENTS = Constants.BASE_URL + "comments";
-    public static String GET_SINGLE_COMMENTS = Constants.BASE_URL + "comments/{id}";
-    public static String GET_All_COMMENTS_POSTID = Constants.BASE_URL + "comments/post/{id}";
-    public static String DELETE_COMMENT = Constants.BASE_URL + "comments/{id}";
-    public static String PATCH_UPDATE_A_COMMENT = Constants.BASE_URL + "comments/1";
-    public static String GET_LIMIT_AND_SKIP_COMMENTS = Constants.BASE_URL + "comments?limit={limit}&skip={skip}&select=body,postId";
-    public static String POST_ADD_COMMENT = Constants.BASE_URL + "comments/add";
+    public static String GET_ALL_COMMENTS = Constants.BASE_URL + "/comments";
+    public static String GET_SINGLE_COMMENTS = Constants.BASE_URL + "/comments/{id}";
+    public static String GET_All_COMMENTS_POSTID = Constants.BASE_URL + "/comments/post/{id}";
+    public static String DELETE_COMMENT = Constants.BASE_URL + "/comments/{id}";
+    public static String PATCH_UPDATE_A_COMMENT = Constants.BASE_URL + "/comments/1";
+    public static String GET_LIMIT_AND_SKIP_COMMENTS = Constants.BASE_URL + "/comments?limit={limit}&skip={skip}&select=body,postId";
+    public static String POST_ADD_COMMENT = Constants.BASE_URL + "/comments/add";
 
     // Get All Comments
     @Step("Get All Comments")

@@ -45,6 +45,9 @@ public class Todos {
         SerenityRest.given().pathParam("req", req);
     }
 
+    @Step("Get All Random todos")
+    public void getAllRandomTodos(){SerenityRest.get(RANDOM_TODOS);}
+
     @Step("Get Limit & Skip Todos")
     public void getLimitSkipTodos(int limit, int skip) {
         SerenityRest.given()

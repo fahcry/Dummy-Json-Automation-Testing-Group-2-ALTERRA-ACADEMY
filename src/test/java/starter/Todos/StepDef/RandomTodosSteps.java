@@ -12,6 +12,7 @@ public class RandomTodosSteps {
     Todos todos;
     @Given("Get random todos with valid json")
     public void getRandomTodosWithValidJson() {
+        todos.getAllRandomTodos();
     }
 
     @When("Send request get random todos")

@@ -24,9 +24,9 @@ public class PostAddANewCartSteps {
         SerenityRest.when().post(CartResponses.POST_ADD_A_NEW_CART);
     }
 
-    @And("validate json schema {string}")
-    public void validateJsonSchema(String jsonfilename) {
-        File jsonFile = new File(Constants.JSON_SCHEMA+jsonfilename);
-        SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(jsonFile));
-    }
+//    @And("validate json schema {string}")
+//    public void validateJsonSchema(String jsonfilename) {
+//        File jsonFile = new File(Constants.JSON_SCHEMA+jsonfilename);
+//        SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(jsonFile));
+//    }
 }

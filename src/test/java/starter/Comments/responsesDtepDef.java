@@ -12,10 +12,10 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class responsesDtepDef {
 
-    @Then("Status code should be {int}")
-    public void statusCodeShouldBe(int statusCode) {
-        SerenityRest.then().statusCode(statusCode);
-    }
+//    @Then("Status code should be {int}")
+//    public void statusCodeShouldBe(int statusCode) {
+//        SerenityRest.then().statusCode(statusCode);
+//    }
 
     @And("Validate json schema {string}")
     public void validateJsonSchema(String json) {

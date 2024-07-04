@@ -15,4 +15,4 @@ Feature: Get Single Comments
       | id  |
       | 341 |
       | 500 |
-      |     |
+      | 600 |
