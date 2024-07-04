@@ -9,3 +9,4 @@ Feature: Get Limit and Skip Comments
     Examples:
       | limit | skip |
       | 10    | 10   |
+      | 5     | 5    |
