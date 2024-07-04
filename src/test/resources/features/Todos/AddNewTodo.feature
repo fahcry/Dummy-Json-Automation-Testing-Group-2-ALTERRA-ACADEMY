@@ -4,6 +4,8 @@ Feature: Add New Todos from DummyJson
     Given Add new todos with valid json "<fileName>"
     When Send request post add new todos
     Then Status code should be 201
+   And validate json schema "Add_new_todos_json_schema.json"
+
 
    Examples:
    | fileName |

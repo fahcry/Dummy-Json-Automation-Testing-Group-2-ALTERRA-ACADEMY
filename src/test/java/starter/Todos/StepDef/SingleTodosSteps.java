@@ -35,4 +35,8 @@ public class SingleTodosSteps {
         todos.getSingleTodos(id);
     }
 
+    @Given("Get single todos with special character id {string}")
+    public void getSingleTodosWithSpecialCharacterId(String special) {
+        todos.getSingleTodosSpecialId(special);
+    }
 }

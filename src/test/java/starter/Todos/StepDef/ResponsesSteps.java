@@ -19,7 +19,7 @@ public class ResponsesSteps {
 
     @Then("Status code should be {int}")
     public void statusCodeShouldBe(int statusCode) {
-        SerenityRest.then().statusCode(statusCode);
+        SerenityRest.then().statusCode(statusCode).log().all();
     }
     @Then("Response body should be {string}")
     public void responseBodyShouldBe(String error) {
@@ -31,6 +31,7 @@ public class ResponsesSteps {
         File jsonFile = new File(Constants.JSON_SCHEMA+fileName);
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(jsonFile));
     }
+
 
 
 }

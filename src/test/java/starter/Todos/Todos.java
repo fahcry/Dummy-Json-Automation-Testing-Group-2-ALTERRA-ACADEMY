@@ -33,6 +33,13 @@ public class Todos {
         SerenityRest.given().pathParam("id", id);
     }
 
+    @Step("Get single with invalid todos")
+    public void getSingleTodosSpecialId(String id) {
+        SerenityRest.given().pathParam("id", id);
+    }
+
+
+
     @Step("Get Random Todos using request")
     public void getRandomreqTodos(int req) {
         SerenityRest.given().pathParam("req", req);
@@ -57,9 +64,22 @@ public class Todos {
                 .contentType(ContentType.JSON).body(json);
     }
 
+    @Step("Put update Todo")
+    public void putUpdateTodoSpecialcharaId(String Id, File json) {
+        SerenityRest.given().pathParam("id", Id)
+                .contentType(ContentType.JSON).body(json);
+    }
+
     @Step ("Delete a user")
     public void DeleteTodos(int id){
         SerenityRest.given().pathParam("id",id);
     }
+
+    @Step ("Delete a user")
+    public void DeleteTodosSpecialId(String id){
+        SerenityRest.given().pathParam("id",id);
+    }
+
+
 
 }

@@ -18,4 +18,9 @@ public class DeleteTodosSteps {
     public void sendRequestDeleteTodos() {
         SerenityRest.when().delete(Todos.SINGLE_TODOS);
     }
+
+    @Given("Delete todos with special id {string}")
+    public void deleteTodosWithSpecialId(String special) {
+        todos.DeleteTodosSpecialId(special);
+    }
 }

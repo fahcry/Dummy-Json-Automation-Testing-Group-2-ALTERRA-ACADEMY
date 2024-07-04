@@ -19,10 +19,17 @@ public class UpdateTodosSteps {
         todos.putUpdateTodo(id,jsonFile);
     }
 
+
+
     @When("Send Request put update todos")
     public void sendRequestPutUpdateTodos() {
         SerenityRest.when().put(Todos.UPDATE_TODOS);
     }
 
 
+    @Given("Update todos with invalid parameter id {string} and valid json {string}")
+    public void updateTodosWithInvalidParameterIdAndValidJson(String id, String update) {
+        File jsonFile = new File(Constants.REQ_BODY+update);
+        todos.putUpdateTodoSpecialcharaId(id,jsonFile);
+    }
 }
