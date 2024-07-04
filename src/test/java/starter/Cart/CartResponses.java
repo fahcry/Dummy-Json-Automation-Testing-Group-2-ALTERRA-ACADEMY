@@ -17,7 +17,7 @@ public class CartResponses {
 
     @Step("Get all cart")
     public void getAllCart(){
-        SerenityRest.get(GET_ALL_CART);
+        SerenityRest.get(GET_ALL_CART);gi
     }
     @Step("Get a single cart")
     public void getAsinglecart(int carts1) {
