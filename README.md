@@ -12,7 +12,7 @@ https://docs.google.com/spreadsheets/d/1ww5j9lkgQB-cTnfX7sNzWAIYu9rVb76chPhpA0QH
 ![image](https://github.com/Hary1620/Serenity-Rest_DummyJSON/assets/67353203/253e109e-8139-4952-b744-5c03a6de50e0)
 
 ## Features Converage
-![image](https://github.com/Hary1620/Serenity-Rest_DummyJSON/assets/67353203/66120618-fb96-48e4-840b-b0f506f7d191)
+![image](https://github.com/Hary1620/Serenity-Rest_DummyJSON/assets/67353203/8cf07280-1364-4518-8ca2-39c169c40652)
 
 
 
