@@ -8,6 +8,10 @@ https://docs.google.com/spreadsheets/d/1ww5j9lkgQB-cTnfX7sNzWAIYu9rVb76chPhpA0QH
 ## Report Test Overall
 ![image](https://github.com/Hary1620/Serenity-Rest_DummyJSON/assets/67353203/eb0af9c0-1968-4ccc-a884-f65b407f0d4a)
 
+## Manual vs Automation Test Result
+![image](https://github.com/Hary1620/Serenity-Rest_DummyJSON/assets/67353203/1263c656-91a4-4dcd-8d17-afc1f8278048)
+
+
 ## Features Converage
 ![image](https://github.com/Hary1620/Serenity-Rest_DummyJSON/assets/67353203/622f946d-3ce1-41b8-a680-de44c69cd663)
 
