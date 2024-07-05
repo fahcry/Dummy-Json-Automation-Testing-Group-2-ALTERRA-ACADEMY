@@ -1,9 +1,8 @@
-# Getting started with REST API testing with Serenity and Cucumber 6
+# Dummy JSON Testing Project
+## Project Description
+This project is part of the Alterra Academy Quality Assurance Batch 15 Immersive Program assignment which involves Manual Testing and Automation Testing on the Dummy JSON website. Dummy JSON is a web service that provides fake JSON data for testing and application development purposes. The goal of this project is to test the functionality and performance of the Dummy JSON API using manual and automated testing methods.
 
-This is a simple starter project for Serenity with Cucumber 6 and RestAssured
+## Test Case Manual
+https://docs.google.com/spreadsheets/d/1ww5j9lkgQB-cTnfX7sNzWAIYu9rVb76chPhpA0QHviw/edit?usp=sharing
 
-## Want to learn more?
-For more information about Serenity BDD, you can read the [**Serenity BDD Book**](https://serenity-bdd.github.io/theserenitybook/latest/index.html), the official online Serenity documentation source. Other sources include:
-* **[Byte-sized Serenity BDD](https://www.youtube.com/channel/UCav6-dPEUiLbnu-rgpy7_bw/featured)** - tips and tricks about Serenity BDD
-* [**Serenity BDD Blog**](https://johnfergusonsmart.com/category/serenity-bdd/) - regular articles about Serenity BDD
-* [**The Serenity Dojo**](https://www.serenity-dojo.com) - Tailored BDD and Test Automation Training and Mentoring
+## Report Test Overall
