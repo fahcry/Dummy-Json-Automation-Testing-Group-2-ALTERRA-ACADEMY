@@ -13,6 +13,9 @@ https://docs.google.com/spreadsheets/d/1ww5j9lkgQB-cTnfX7sNzWAIYu9rVb76chPhpA0QH
 
 ## Features Converage
 ![image](https://github.com/Hary1620/Serenity-Rest_DummyJSON/assets/67353203/8cf07280-1364-4518-8ca2-39c169c40652)
+- 16 Features of Cart
+- 16 Features of Todos
+- 12 Features of Comments
 
 
 
