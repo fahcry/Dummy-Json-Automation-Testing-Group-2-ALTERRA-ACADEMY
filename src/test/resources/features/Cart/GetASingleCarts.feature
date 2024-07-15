@@ -6,6 +6,11 @@ Feature: Get a single carts from api DummyJSON
   And Validate id soulbe be match 1
   And validate json schema "get_a_single_carts_json_schema.json"
 
+  Scenario: Get a single carts with invalid id "#$"
+  Given get a single carts with parameter "#$"
+  When send request get a single carts
+  Then status code should be response 404
+
   Scenario: Get a single carts with invalid id "1999"
   Given get a single carts with parameter 1999
   When send request get a single carts
